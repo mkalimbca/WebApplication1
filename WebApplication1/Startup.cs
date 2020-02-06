@@ -27,7 +27,7 @@ namespace WebApplication1
 
             app.Run(async (context) =>
             {
-                await context.Response.WriteAsync("Hello World!, This is for Azure Devops Pipelines configuration.");
+                await context.Response.WriteAsync("Hello World!, This is for Azure Devops Pipelines");
             });
         }
     }
