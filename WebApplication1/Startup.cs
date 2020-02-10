@@ -27,7 +27,7 @@ namespace WebApplication1
 
             app.Run(async (context) =>
             {
-                await context.Response.WriteAsync("Hello World!, This is for Azure Devops Pipelines. Removed at VS");
+                await context.Response.WriteAsync("Hello World!, This is for Azure Devops Pipelines. update on 10.0.20");
             });
         }
     }
